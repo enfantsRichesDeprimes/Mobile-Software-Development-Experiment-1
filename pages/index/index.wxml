@@ -1,0 +1,5 @@
+<view class="container">
+  <image src='{{image}}' class="diamond-border"></image>
+  <text class="text">{{nickName}}</text>
+  <button bind:tap="getUserProfile" open-type="getUserInfo" class="a">点击获取头像和昵称</button>
+</view>
